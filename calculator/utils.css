@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#mainn{
+    display: flex;
+    background-image: linear-gradient(orange,rgb(223, 156, 23));
+    width:100%;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.button2{
+    width: 320px;
+    height: 50px;
+    border-radius: 27px;
+    background-color: rgb(85, 80, 80);
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    align-content: center;
+    margin-top: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border: 0;
+}
+.outbox{
+    height: 460px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.input{
+    width: 260px;
+    height: 130px;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    background-color: rgb(85, 80, 80);;
+    border-radius: 25px;
+    border: 0;
+    display: flex;
+    margin-top: 20px;
+}
+.sym{
+    
+    width: 260px;
+    height: 55px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.button1{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(180, 175, 175);
+    border-radius: 50px;
+    border: 0;
+    font-weight: 700;
+    font-size:30px;
+    align-content: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#amu{
+    font-size:25px;
+}
